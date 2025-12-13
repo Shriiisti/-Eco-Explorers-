@@ -1,0 +1,10 @@
+name: solar_panel_env
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.13.2
+  - pip
+  - pip:
+    - -r requirements.txt
